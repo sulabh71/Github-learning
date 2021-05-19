@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="default.css">
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+  
+    #footer {
+		background-color: white;
+	}
+	
+	#footer p {
+		color: #262262;
+	}
+
+    #lets-connect {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: #262262;
+        height: 800px;
+    }
+    
+    #lets-connect form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    input {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        font-size: 15px;
+    }
+    
+    #txtFirstName, #txtSecondName {
+        height: 40px;
+        width: 295px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+        margin: 0px 20px;
+    }
+    
+    #txtEmail {
+        height: 40px;
+        width: 650px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+    
+    #txtPhone {
+        height: 40px;
+        width: 650px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+    
+    #btnSubmit {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        background: none;
+        border-style: solid;
+        background-color: #f8951d;
+        border-color: #262262;
+        color: white;
+    }
+    
+    #btnSubmit:hover {
+        color: #262262;
+        border-color: #f8951d;
+        background-color: white;
+    }
+  </style>
+ </head>
+ <body>
+  <div id="mainBody">
+   <div id="wrapper">
+    <div id="header">
+     <div id="logoHolder">
+      <img src="images/logo.png" alt="" height="100%">
+     </div>
+     <div id="menuBar">
+      <ul id="mainElements">
+       <li id="dropDownParent"><a href="index.html">Home</a></li>
+       <li id="dropDownParent"><a href="about.html">About</a></li>
+       <li id="dropDownParent"><a href="#">Products</a>
+        <ul id="dropDownChild">
+         <li><a href="waterpumps.html">Water Pumps</a></li>
+         <li><a href="microgrids.html">Microgrids</a></li>
+        </ul>
+       </li>
+       <li id="dropDownParent"><a href="contact.html">Contact</a></li>
+      </ul>
+     </div>
+    </div>
+    <div id="middle">
+     <div id="lets-connect">
+     <h1 align="center" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size: 48px; text-decoration: underline; color: #f8951d;">Let's Connect</h1>
+     <form action="" method="post">
+      <input type="text" id="txtFirstName" placeholder="&nbsp;&nbsp;First Name" required>
+      <input type="text" id="txtSecondName" placeholder="&nbsp;&nbsp;Last Name" required>
+      <br>
+      <br>
+      <input type="text" id="txtPhone" placeholder="&nbsp;&nbsp;Phone Number" required>
+      <br>
+      <br>
+      <input type="text" id="txtEmail" placeholder="&nbsp;&nbsp;E-Mail ID(Optional)">
+      <br>
+      <br>
+<textarea id="txtRequirements" style="width: 650px; height: 300px; border-style: solid; border-color: black; border-radius: 10px; padding: 5px 5px; border-width: 2px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size: 15px;" placeholder="What are your requirements ?" required></textarea>
+<br>
+<br>
+<input type="submit" id="btnSubmit" value="Submit">
+     </form>
+    </div>
+    </div>
+    <div id="footer">
+     <p align="center">
+      <br>
+      <br>
+      SolarAmp &copy; 2019
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

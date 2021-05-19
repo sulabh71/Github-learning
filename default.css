@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainBody {
+    width: 100%;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+}
+
+#header #logoHolder {
+    width: 7%;
+    height: 90%;
+    margin-left: 50px;
+    display: inline;
+}
+
+#header #menuBar {
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+#mainElements {
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+}
+
+#dropDownChild {
+    list-style: none;
+    background-color: white;
+    display: none;
+    width: 130px;
+    line-height: 80px;
+	position: relative;
+}
+
+#dropDownChild li {
+    width: 130px;
+    line-height: 80px;
+}
+
+#dropDownParent {
+    float: left;
+    width: 110px;
+    margin-left: 20px;
+    line-height: 100px;
+}
+
+#dropDownParent a {
+    display: block;
+    text-decoration: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+    color: #262262;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#dropDownChild {
+    line-height: 80px;
+}
+
+#dropDownChild li:hover {
+    background-color: #ECECEC;
+}
+
+#dropDownChild a {
+    font-size: 14px;
+}
+
+#dropDownParent a:hover {
+    color: #f8951d;
+}
+
+#dropDownParent:hover #dropDownChild {
+    display: block;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #262262;
+}
+
+#footer p {
+    color: white;
+}
